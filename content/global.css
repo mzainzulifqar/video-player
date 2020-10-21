@@ -862,7 +862,7 @@ video::cue,
 /* my style */
 
 #myDiv {
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 .fwduvp-annotation-link-normal,
@@ -881,6 +881,35 @@ video::cue,
 	text-align: center;
 	transform: none !important;
 	color: #000 !important;
+}
+
+.fwduvp-annotation-link-normal >div ,
+.fwduvp-annotation-link-selected >div ,
+.fwduvp-annotation-normal >div ,
+.fwduvp-annotation-js-normal >div ,
+.fwduvp-annotation-js-selected >div {
+	width: 100%;
+}
+
+.align {
+	max-width: 400px;
+}
+
+.text-white {
+	color: #fff !important;
+}
+
+.align-right {
+	float: right;
+}
+
+.align-left {
+	max-width: 380px;
+	padding: 0 0 0 60px;
+}
+
+.align-center {
+	margin: 0 auto;
 }
 
 .fwduvp > div >div {
@@ -925,5 +954,13 @@ video::cue,
 }
 
 @media (max-width: 640px) {
+	.fwduvp h1 {
+		font-size: 18px;
+		line-height: 22px;
+	}
 
+	.fwduvp p {
+		font-size: 14px;
+		line-height: 18px;
+	}
 }
