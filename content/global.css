@@ -869,13 +869,13 @@ video::cue,
 	right: 0 !important;
 	bottom: 0 !important;
 	width: auto !important;
-	background: rgb(0,0,0,0.6) !important;
+	background: rgba(0,0,0,0.0) !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	transform: none !important;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .fwduvp > div >div {
@@ -884,16 +884,20 @@ video::cue,
 }
 
 .fwduvp table {
-	border: 2px solid #fff;
+	border: 2px solid #000;
 	border-collapse: collapse;
 }
 
 .fwduvp table td,
 .fwduvp table th {
 	padding: 5px;
-	border-left: 2px solid #fff;
+	border-left: 2px solid #000;
 	border-collapse: collapse;
-	border-top: 2px solid #fff;
+	border-top: 2px solid #000;
+}
+
+.fwduvp h1 {
+	line-height: 1.2;
 }
 
 .fwduvp ol,
