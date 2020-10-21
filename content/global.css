@@ -861,6 +861,10 @@ video::cue,
 
 /* my style */
 
+#myDiv {
+	margin: 0 auto;
+}
+
 .fwduvp-annotation-link-normal,
 .fwduvp-annotation-link-selected,
 .fwduvp-annotation-normal,
@@ -868,6 +872,7 @@ video::cue,
 .fwduvp-annotation-js-selected {
 	right: 0 !important;
 	bottom: 0 !important;
+	font-family: 'Open Sans', sans-serif !important;
 	width: auto !important;
 	background: rgba(0,0,0,0.0) !important;
 	display: flex;
@@ -897,7 +902,13 @@ video::cue,
 }
 
 .fwduvp h1 {
+	font-size: 24px;
+	line-height: 28px;
 	line-height: 1.2;
+}
+
+.fwduvp h1 br {
+	display: none !important;
 }
 
 .fwduvp ol,
@@ -911,4 +922,8 @@ video::cue,
 
 .fwduvp blockquote cite {
 	display: block;
+}
+
+@media (max-width: 640px) {
+
 }
